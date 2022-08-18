@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="359.0" prefWidth="470.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18" fx:controller="com.lol.controller.VentanaController">
+   <children>
+      <Button fx:id="buttton7" layoutX="64.0" layoutY="125.0" mnemonicParsing="false" onAction="#addvalue" prefHeight="25.0" prefWidth="51.0" text="7">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="button8" layoutX="141.0" layoutY="125.0" mnemonicParsing="false" onAction="#addvalue" prefHeight="25.0" prefWidth="51.0" text="8">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="button9" layoutX="217.0" layoutY="125.0" mnemonicParsing="false" onAction="#addvalue" prefHeight="25.0" prefWidth="51.0" text="9">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="button4" layoutX="64.0" layoutY="175.0" mnemonicParsing="false" onAction="#addvalue" prefHeight="25.0" prefWidth="51.0" text="4">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="button5" layoutX="141.0" layoutY="175.0" mnemonicParsing="false" onAction="#addvalue" prefHeight="25.0" prefWidth="51.0" text="5">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="button6" layoutX="217.0" layoutY="175.0" mnemonicParsing="false" onAction="#addvalue" prefHeight="25.0" prefWidth="51.0" text="6">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="button1" layoutX="64.0" layoutY="226.0" mnemonicParsing="false" onAction="#addvalue" prefHeight="25.0" prefWidth="51.0" text="1">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="button2" layoutX="141.0" layoutY="226.0" mnemonicParsing="false" onAction="#addvalue" prefHeight="25.0" prefWidth="51.0" text="2">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="button3" layoutX="217.0" layoutY="226.0" mnemonicParsing="false" onAction="#addvalue" prefHeight="25.0" prefWidth="51.0" text="3">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="button0" layoutX="141.0" layoutY="274.0" mnemonicParsing="false" onAction="#addvalue" prefHeight="25.0" prefWidth="51.0" text="0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="buttonpoint" layoutX="64.0" layoutY="274.0" mnemonicParsing="false" onAction="#addvalue" prefHeight="25.0" prefWidth="51.0" text=".">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="buttonequal" layoutX="217.0" layoutY="274.0" mnemonicParsing="false" onAction="#addvalue" prefHeight="25.0" prefWidth="51.0" text="=">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="buttonmultiplication" layoutX="293.0" layoutY="226.0" mnemonicParsing="false" onAction="#operation" prefHeight="25.0" prefWidth="51.0" text="×">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="buttondivision" layoutX="355.0" layoutY="226.0" mnemonicParsing="false" onAction="#operation" prefHeight="25.0" prefWidth="51.0" text="÷">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="buttonaddition" layoutX="293.0" layoutY="274.0" mnemonicParsing="false" onAction="#operation" prefHeight="25.0" prefWidth="51.0" text="+">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="buttonsubtraction" layoutX="355.0" layoutY="274.0" mnemonicParsing="false" onAction="#operation" prefHeight="25.0" prefWidth="51.0" text="-">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="buttondelete" layoutX="293.0" layoutY="175.0" mnemonicParsing="false" onAction="#clearEntry" prefHeight="25.0" prefWidth="51.0" text="CE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="buttonclear" layoutX="355.0" layoutY="175.0" mnemonicParsing="false" onAction="#clearScreen" prefHeight="25.0" prefWidth="51.0" text="C">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="pressme" layoutX="292.0" layoutY="125.0" mnemonicParsing="false" onAction="#pressmev" prefHeight="25.0" prefWidth="113.0" text="Press me" textFill="#2695a6">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <AnchorPane layoutX="64.0" layoutY="29.0" prefHeight="74.0" prefWidth="343.0" style="-fx-background-color: #D0D0D0; -fx-background-radius: 15px;">
+         <children>
+            <Label fx:id="screen" layoutX="14.0" layoutY="14.0" prefHeight="19.0" prefWidth="318.0" />
+            <Label fx:id="screen2" layoutX="230.0" layoutY="47.0" prefHeight="31.0" prefWidth="113.0" textAlignment="RIGHT" textFill="#6000e8">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </AnchorPane>
+   </children>
+</AnchorPane>
